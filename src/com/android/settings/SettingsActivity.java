@@ -728,7 +728,6 @@ public class SettingsActivity extends SettingsDrawerActivity
                 finish();
                 return null;
             }
-        }
 
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
